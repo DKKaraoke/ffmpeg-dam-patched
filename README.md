@@ -18,7 +18,7 @@ Refer to: https://mailman.videolan.org/pipermail/x264-devel/2021-April/012885.ht
 
 ## Thanks
 
-- [Niranjan Kumar B](niranjan@multicorewareinc.com) - Author of original patch
+- [Niranjan Kumar B](<mailto:niranjan@multicorewareinc.com>) - Author of original patch
 
 ## License
 
