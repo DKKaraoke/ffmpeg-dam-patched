@@ -8,6 +8,6 @@ Refer to: https://mailman.videolan.org/pipermail/x264-devel/2021-April/012885.ht
 
 ## List of verified DAM Karaoke machine
 
-- DAM-XG5000[G,R] (LIVE DAM)
+- DAM-XG5000[G,R] (LIVE DAM [(GOLD EDITION|RED TUNE)])
 - DAM-XG7000[Ⅱ] (LIVE DAM STADIUM [STAGE])
 - DAM-XG8000[R] (LIVE DAM Ai[R])
