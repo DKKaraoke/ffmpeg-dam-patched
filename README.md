@@ -11,3 +11,17 @@ Refer to: https://mailman.videolan.org/pipermail/x264-devel/2021-April/012885.ht
 - DAM-XG5000[G,R] (LIVE DAM [(GOLD EDITION|RED TUNE)])
 - DAM-XG7000[Ⅱ] (LIVE DAM STADIUM [STAGE])
 - DAM-XG8000[R] (LIVE DAM Ai[R])
+
+# Authors
+
+- soltia48 (ソルティアよんはち)
+
+# Thanks
+
+- [Niranjan Kumar B](niranjan@multicorewareinc.com) - Author of original patch
+
+# License
+
+[MIT](https://opensource.org/licenses/MIT)
+
+Copyright (c) 2023 soltia48 (ソルティアよんはち)
