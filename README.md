@@ -28,7 +28,7 @@ docker run -v $(pwd):$(pwd) -w $(pwd) ffmpeg_with_eos_eob -i SOURCE_PATH -r 3000
 
 ## Authors
 
-- soltia48 (ソルティアよんはち)
+- soltia48
 
 ## Thanks
 
@@ -38,4 +38,4 @@ docker run -v $(pwd):$(pwd) -w $(pwd) ffmpeg_with_eos_eob -i SOURCE_PATH -r 3000
 
 [MIT](https://opensource.org/licenses/MIT)
 
-Copyright (c) 2023 soltia48 (ソルティアよんはち)
+Copyright (c) 2024 soltia48
