@@ -17,7 +17,13 @@ docker build . -t ffmpeg_with_eos_eob
 If you want to encode for DAM Karaoke Machines, DO NOT CHANGE encoding parameters.
 
 ```
-docker run -v $(pwd):$(pwd) -w $(pwd) ffmpeg_with_eos_eob -i SOURCE_PATH -r 30000/1001 -c:v libx264 -bsf:v h264_mp4toannexb -profile:v main -pix_fmt yuv420p -level:v 4.0 -x264-params "fps=30000/1001:force_cfr=1:slices=1:interlaced=tff:bluray_compat=1:bframes=2:opengop=0:keyint=15:keyint_min=15:scenecut=-1:rc=cbr:bitrate=8000:vbv_maxrate=8000:vbv_bufsize=8000:nal_hrd=cbr:eob=1:eos=1" DESTINATION_PATH
+./encode_for_dam.sh SOURCE_PATH DESTINATION_PATH
+```
+
+or
+
+```
+docker run -v $(pwd):$(pwd) -w $(pwd) -u $(id -u):$(id -g) ffmpeg_with_eos_eob -i SOURCE_PATH -r 30000/1001 -c:v libx264 -bsf:v h264_mp4toannexb -profile:v main -pix_fmt yuv420p -level:v 4.0 -x264-params "fps=30000/1001:force_cfr=1:slices=1:tff=1:bluray_compat=1:bframes=2:open_gop=0:keyint=15:keyint_min=15:scenecut=-1:bitrate=8000:vbv_maxrate=8000:vbv_bufsize=8000:nal_hrd=cbr:eob=1:eos=1" DESTINATION_PATH
 ```
 
 ## List of verified DAM Karaoke machine
