@@ -34,7 +34,7 @@ docker run -v $(pwd):$(pwd) -w $(pwd) -u $(id -u):$(id -g) ffmpeg_with_eos_eob -
 
 ## Authors
 
-- soltia48
+- KIRISHIKI Yudai
 
 ## Thanks
 
@@ -44,4 +44,4 @@ docker run -v $(pwd):$(pwd) -w $(pwd) -u $(id -u):$(id -g) ffmpeg_with_eos_eob -
 
 [MIT](https://opensource.org/licenses/MIT)
 
-Copyright (c) 2024 soltia48
+Copyright (c) 2024-2025 KIRISHIKI Yudai
